@@ -18,3 +18,11 @@
 | [Cats](https://github.com/typelevel/cats)                    | ok | no |
 | [Eventuate](https://github.com/RBMHTechnology/eventuate)     | ok | no |
 | [Algebird](https://github.com/twitter/algebird)              | ok | no |
+
+
+## Known Issues
+
+  + Check if the plugins.sbt file already has the scoverage dependency
+  + Append the scoverage dependency to the plugins.sbt file (the >> shell operator is not displaying the expected behavior in some cases)
+  + As the coverage plugin is being added on the fly, the coverage might be affected as non testable classes are not removed from the report.
+  + The repo must be at it's most recent sha1 before the script execution 

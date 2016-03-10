@@ -13,6 +13,10 @@ cd ${args[1]}
 base_dir="/Users/sauloaguiar/Desktop"
 git_history=($(git log --pretty=format:"%H"))
 git_history_length=${#git_history[@]}
+
+git pull origin master
+git checkout master
+
 for ((git_index=0; git_index<${git_history_length}; git_index++));
   do
     # fresh the repo to its initial state
@@ -41,10 +45,19 @@ for ((git_index=0; git_index<${git_history_length}; git_index++));
     # find xml generated data
     scoverage_path=($(find . -name "scoverage-report"))
     echo ${scoverage_path}
-
     scoverage_path+="/scoverage.xml"
+
     # copy scoverage.xml file
     cp ${scoverage_path} $base_dir/${args[0]}/${git_history[git_index]}/
+
+    # find test-reports dir
+    treports_path=($(find . -name "test-reports"))
+
+    # copy test-reports dir
+    cp -vr ${treports_path} $base_dir/${args[0]}/${git_history[git_index]}/
+
+    # store the date in a file
+    echo $(git show -s --format=%ci) >> $base_dir/${args[0]}/${git_history[git_index]}/date.txt
 
     git checkout -- .
 done
