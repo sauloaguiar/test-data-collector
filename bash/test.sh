@@ -34,7 +34,7 @@ for ((git_index=0; git_index<${git_history_length}; git_index++));
     plugins_sbt_path=($(find . -name plugins.sbt))
     echo ${plugins_sbt_path}
     # append the scoverage lib to the file
-    echo 'addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.3.5")' >> $plugins_sbt_path
+    echo -e '\naddSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.3.5")' >> $plugins_sbt_path
 
     # run the test suite
     sbt clean coverage test -mem 4096
