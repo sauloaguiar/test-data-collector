@@ -31,13 +31,16 @@ for ((git_index=0; git_index<${git_history_length}; git_index++));
     git checkout ${git_history[git_index]}
 
     # find where plugins.sbt is
-    plugins_sbt_path=($(find . -name plugins.sbt))
-    echo ${plugins_sbt_path}
+    #plugins_sbt_path=($(find . -name plugins.sbt))
+    #echo ${plugins_sbt_path}
     # append the scoverage lib to the file
-    echo -e '\naddSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.3.5")' >> $plugins_sbt_path
+    #echo -e '\naddSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.3.5")' >> $plugins_sbt_path
+
+    # create another plugin file under the /project dir as discussed in issue #1
+    echo -e '\naddSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.3.5")' >> project/aaa.sbt
 
     # run the test suite
-    sbt clean coverage test -mem 4096
+    sbt clean coverage test -mem 4096 -batch
 
     # run scoverage report
     sbt coverageReport
