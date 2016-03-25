@@ -26,3 +26,4 @@
   + Append the scoverage dependency to the plugins.sbt file (the >> shell operator is not displaying the expected behavior in some cases)
   + As the coverage plugin is being added on the fly, the coverage might be affected as non testable classes are not removed from the report.
   + The repo must be at it's most recent sha1 before the script execution 
+  + Whenever some test execution halt, the whole process halts. Need a workaround - a timer or something to overcome this
