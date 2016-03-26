@@ -15,12 +15,11 @@ class Collector
    
    def collect!
     puts "Reading files from #{dirname}"       
-    Dir.glob(dirname) do |rb_file|
+    Dir.glob(dirname+"*.xml") do |rb_file|
     # do work on files ending in .rb in the desired directory
     
         doc = File.open(rb_file) { |f| Nokogiri::XML(f) }
         root = doc.root
-        #p root.keys
         save(root)
 
     end

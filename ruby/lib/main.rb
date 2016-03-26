@@ -8,5 +8,6 @@ class Main
     collector = Collector.new(path, sha1)
     collector.collect!
     
-    p collector.data.to_json
+    p "tests: "+collector.data["tests"].to_s
+    p "success_rate: "+collector.data["success_rate"].to_s + "%"
 end
