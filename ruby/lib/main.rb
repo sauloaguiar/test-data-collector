@@ -3,11 +3,20 @@ require "json"
 
 class Main
     
-    path = ARGV[0]
-    sha1 = ARGV[1]
-    collector = Collector.new(path, sha1)
-    collector.collect!
+    # Pass the data dir as argument
     
-    p "tests: "+collector.data["tests"].to_s
-    p "success_rate: "+collector.data["success_rate"].to_s + "%"
+    Dir.chdir(ARGV[0])
+    
+    # store the data relative to each sha1 folder
+    global_hash = {}
+    
+    # for every folder
+    Dir.glob("*") do |data|
+        # use the collector to get data from the xml's 
+        collector = Collector.new(File.join(Dir.pwd + "/" + data))
+        collector.collect!
+        global_hash[data] = collector.get_data
+        
+    end
+    p global_hash
 end
