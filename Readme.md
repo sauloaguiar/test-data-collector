@@ -15,9 +15,11 @@
 | [Scalariform](https://github.com/scala-ide/scalariform)      | ok | ok |
 | [GitBucket](https://github.com/gitbucket/gitbucket)          | ok | ok |
 | [Breeze](https://github.com/scalanlp/breeze)                 | ok | ok |
+| [Scalastyle](https://github.com/scalastyle/scalastyle)       | ok | ok |
 | [Cats](https://github.com/typelevel/cats)                    | ok | no |
 | [Eventuate](https://github.com/RBMHTechnology/eventuate)     | ok | no |
 | [Algebird](https://github.com/twitter/algebird)              | ok | no |
+
 
 
 ## Known Issues

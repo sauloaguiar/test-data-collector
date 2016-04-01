@@ -1,5 +1,6 @@
 require_relative 'collector'
 require "json"
+require 'date'
 
 class Main
     
@@ -18,5 +19,8 @@ class Main
         global_hash[data] = collector.get_data
         
     end
-    p global_hash
+    new_hash = global_hash.sort_by { |key, value| DateTime.parse(value["date"], '%Y-%m-%d %H:%M:%S %z') }.to_h
+
+    p new_hash
+    
 end
