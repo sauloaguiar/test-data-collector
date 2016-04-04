@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>dashboard</title>
+
+    <!--Bootstrap core CSS-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--app styles-->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--D3 core JS-->
+    <script type="text/javascript" src="js/d3.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+
+  <div class="container">
+
+    <!--main content-->
+    <div class="row">
+      <div class="col-xs-9 col-sm-9 col-md-9">
+        <h4>Testing - D3</h4>
+        <div class="breadcrumbs">
+          <p>
+            <a href="./">Home</a> |  d3 data drawing bar
+          </p>
+        </div>
+
+        <div id="test-container" class="tester"></div>
+        <div id="test-container2" class="tester"></div>
+        <div id="test-container3" class="tester"></div>
+        <div id="test-container4" class="tester"></div>
+        <div id="tip" class="hidden">
+      			<p id="heading"></p>
+      			<p id="value"></p>
+        </div>
+        <script src="js/library.js"></script>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <button type="button" class="btn btn-logout pull-right" style="margin-top:8px; margin-left:15px;">
+          <a title="Logout" href="curl-logout.php"><small>Logout</small></a>
+        </button>
+      </div>
+    </div>
+  </div><!--/.container-->
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">
+        <small></small>
+      </p>
+    </div>
+  </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/offcanvas.js"></script>
+  </body>
+</html>

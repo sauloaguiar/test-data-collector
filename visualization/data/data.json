@@ -1,0 +1,1597 @@
+[{
+	"tests": 93,
+	"success_rate": 100,
+	"coverage": "9.89",
+	"date": "2015-12-26 16:59:30 +0900\n",
+	"sha1": "a7024615e1e675b92a91e8987982bbff2ac8df0e"
+}, {
+	"tests": 93,
+	"success_rate": 100,
+	"coverage": "9.89",
+	"date": "2015-12-26 17:00:33 +0900\n",
+	"sha1": "25031eadfb179a48d62f202da3553801be86443b"
+}, {
+	"tests": 93,
+	"success_rate": 100,
+	"coverage": "9.89",
+	"date": "2015-12-26 21:20:09 +0900\n",
+	"sha1": "92f6792ad90e0e152d0d0b26209dc594ece4b6e2"
+}, {
+	"tests": 93,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2015-12-26 22:48:28 +0900\n",
+	"sha1": "9cc6beead7ff0450b10d041646928e07e5400e8a"
+}, {
+	"tests": 93,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2015-12-27 14:40:54 +0900\n",
+	"sha1": "c077dd0046f043c6613663ee04d8156f24c3f4c3"
+}, {
+	"tests": 93,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2015-12-29 01:37:52 +0900\n",
+	"sha1": "dfe3fbc02f25e93bb7849b98e76e81c9e92f785e"
+}, {
+	"tests": 93,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2015-12-30 01:18:13 +0900\n",
+	"sha1": "990d0824226a5b3cf9e398480f5af243cfa344c1"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.93",
+	"date": "2015-12-30 05:27:09 +0900\n",
+	"sha1": "4457a317e6edcca6cbbe630c878186ff11e0cb9e"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.93",
+	"date": "2015-12-30 10:58:06 +0900\n",
+	"sha1": "3399278925874d9e34c711aa54bee24496e9a1c2"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.93",
+	"date": "2015-12-31 02:33:11 +0900\n",
+	"sha1": "a6f4d9d7cf5e65787ad2bd1b65f8da8bc312f2f3"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.93",
+	"date": "2016-01-01 13:13:30 +0900\n",
+	"sha1": "e8c4004d5aefd30735fa74a42e4f040fe98afb5b"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.93",
+	"date": "2016-01-01 14:42:08 +0900\n",
+	"sha1": "7500d017d567af3060084dd68cc46483e65c7822"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.93",
+	"date": "2016-01-01 15:12:06 +0900\n",
+	"sha1": "162e9a9febdc7e7a9dffd60887c94b18c9f8e122"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-01-01 17:43:22 +0900\n",
+	"sha1": "abd729e45facef6d059501babeeae0f5642fd8fe"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": "0.00",
+	"date": "2016-01-01 17:49:32 +0900\n",
+	"sha1": "be3aa21651419d3b4397a52bb67b0eaefe3b6be6"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": "0.00",
+	"date": "2016-01-01 19:57:17 +0900\n",
+	"sha1": "5dad0777d7cad3c34e35dc42daf8de897e2cd0c7"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": "0.00",
+	"date": "2016-01-01 22:45:54 +0900\n",
+	"sha1": "09fcf9c003b0496e8f0b87d3ebec482e2b108291"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": "0.00",
+	"date": "2016-01-01 22:46:31 +0900\n",
+	"sha1": "af2e2f5fd1ed13117de03f01f6f97876b15ca8ce"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": "0.00",
+	"date": "2016-01-02 02:42:38 +0900\n",
+	"sha1": "739c99edce2bf08c1909e1ebe09c7f59c146d8fa"
+}, {
+	"tests": 94,
+	"success_rate": 0,
+	"coverage": "8.22",
+	"date": "2016-01-02 03:07:53 +0900\n",
+	"sha1": "cbb847704b1529a5f02a888b72ed5ab22a766cf4"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-02 03:08:09 +0900\n",
+	"sha1": "ba750794093979ce9488b17fbc9b3bebc63f5add"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-02 18:54:56 +0900\n",
+	"sha1": "100b34085ca627b4ef4e9db345cd2cb52932e968"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.75",
+	"date": "2016-01-02 20:20:24 +0900\n",
+	"sha1": "645af4d2c0419049e26d2f5b0add403b86c7b9f7"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.76",
+	"date": "2016-01-02 20:20:24 +0900\n",
+	"sha1": "9d6258861a2b0f68d6c6e768fdac4539a8e9bcad"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.77",
+	"date": "2016-01-02 20:20:24 +0900\n",
+	"sha1": "6661314be593f8c8ebee1aa9525b2583215dff7c"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.81",
+	"date": "2016-01-02 20:20:24 +0900\n",
+	"sha1": "e187d026cc27095aed01d4815db6e683a9fd9d34"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.75",
+	"date": "2016-01-02 20:20:24 +0900\n",
+	"sha1": "34240d16b522f87aaff8730f2cdf0b1de351df26"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.75",
+	"date": "2016-01-02 20:20:24 +0900\n",
+	"sha1": "89210985d4ae3dcab89c3f3be4043df13a865106"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.77",
+	"date": "2016-01-02 20:23:07 +0900\n",
+	"sha1": "e237a44f561c336442822685c663390bfddbedf8"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.78",
+	"date": "2016-01-02 20:23:07 +0900\n",
+	"sha1": "73d935efe3f2a2dc22477cbd224869f2f238ea0f"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.65",
+	"date": "2016-01-02 20:23:07 +0900\n",
+	"sha1": "927969ac172f7f104d792da25f424ce97de9435d"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.78",
+	"date": "2016-01-02 20:23:07 +0900\n",
+	"sha1": "3302b607f191e323af3e5973ab679464d8e76c58"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.77",
+	"date": "2016-01-02 20:23:07 +0900\n",
+	"sha1": "249430449b43e6643e1fdfb84a1d22293be7586c"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.78",
+	"date": "2016-01-02 20:23:07 +0900\n",
+	"sha1": "79251ef1d11338bf84b87d1e9e3977fcacace2f2"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.78",
+	"date": "2016-01-02 20:23:07 +0900\n",
+	"sha1": "1081c0f16ce435a6a69610e1b45d220c9136a384"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.65",
+	"date": "2016-01-02 20:23:07 +0900\n",
+	"sha1": "f13a3ee580d49b2a2e44e1658880cbbaf7891087"
+}, {
+	"tests": 95,
+	"success_rate": 100,
+	"coverage": "9.65",
+	"date": "2016-01-02 20:23:07 +0900\n",
+	"sha1": "2d8aa4f8b57f84a7d9843dbf9aff15e4f401a029"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.27",
+	"date": "2016-01-02 20:41:23 +0900\n",
+	"sha1": "766867f34120f4f188688ed2e0fe10803281ba84"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-02 20:58:44 +0900\n",
+	"sha1": "781d465f8d28b790f88df71c3a34507bf219bab8"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-02 23:41:51 +0900\n",
+	"sha1": "9efba82e94adf8363218425306b8a5742eb96ef0"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-03 00:43:45 +0900\n",
+	"sha1": "a3b3262ad58ee46a0333d391053152f91b1e65f7"
+}, {
+	"tests": 93,
+	"success_rate": 100,
+	"coverage": "9.89",
+	"date": "2016-01-03 05:00:02 +0900\n",
+	"sha1": "e8f6d2b9908678a5ad8a9ff80c78dc04645e1fd4"
+}, {
+	"tests": 93,
+	"success_rate": 100,
+	"coverage": "9.89",
+	"date": "2016-01-03 20:02:27 +0900\n",
+	"sha1": "adff36c44bc8e749a6dfb48fc6fba1d228a4a0b9"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-03 22:09:52 +0900\n",
+	"sha1": "1042c50cc3187eef907698008644caeae8b26793"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-03 22:46:15 +0900\n",
+	"sha1": "5fd87ca764e91f4774ffe7f04e9260347786eb03"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-04 17:11:53 +0900\n",
+	"sha1": "926c4d948f85919d1f05d51ee5f5899c7bf75097"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-04 20:17:52 +0900\n",
+	"sha1": "d62fc6e1357a294aa7ce9a66618ba97eb1672041"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-05 01:07:47 +0900\n",
+	"sha1": "f6624c0002fe2364953464b6f8942b256bfff3a1"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-05 01:09:15 +0900\n",
+	"sha1": "b50ca63c2b64fdaf685588e53fac2d38bba4556d"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-06 22:07:20 +0900\n",
+	"sha1": "c61ecdef7a4259217386b0767a120b956edf78c5"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-06 22:16:52 +0900\n",
+	"sha1": "b96821ca4423a792d296785dc4476537b2a0c8c9"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-06 23:05:33 +0900\n",
+	"sha1": "d18f92cfbf42d36ca23333f8e78e2282c614bed3"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-06 23:09:03 +0900\n",
+	"sha1": "a03fc4cf4a037db4072775ef6f26cfb4b27552cd"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-07 16:40:44 +0900\n",
+	"sha1": "9e313bb2b32a88549799221cc031dcf73f2bf1bb"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-07 16:54:08 +0900\n",
+	"sha1": "63e605d99cbe270a6550b49fc9270bae85371589"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-07 16:55:39 +0900\n",
+	"sha1": "f63542dbd09bef0412f0da065440f16b938e7c14"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-13 13:55:59 +0900\n",
+	"sha1": "b71ff6f179a48c933bac2b60dbced14f05b3a1d5"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-13 14:01:40 +0900\n",
+	"sha1": "90c379b3b9edc16a435732d3ef6faaac9b4c19ed"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-15 01:23:41 +0900\n",
+	"sha1": "b1b132dfc34c015bec3e6fed1c2fe03271e9be4a"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-16 14:15:42 +0900\n",
+	"sha1": "aa065fd03004608777927e0be3c5a70265138cf6"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-16 14:18:03 +0900\n",
+	"sha1": "d6a39403e28d6c65ebf0e89d1e4e950d9531ee3f"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-16 14:18:12 +0900\n",
+	"sha1": "f991f3b454c46aec3a31742d88eeb77ba62d1e5c"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.88",
+	"date": "2016-01-16 14:27:44 +0900\n",
+	"sha1": "15e8527e01d2cea92c5f1121c1c23143a267a16c"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.87",
+	"date": "2016-01-16 22:00:29 +0900\n",
+	"sha1": "9b3e8bd22bf6c39c08a9f0d8b04ee8ffec60e0ad"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.87",
+	"date": "2016-01-16 22:14:45 +0900\n",
+	"sha1": "0ab28e6daaa969bd7efca5bdcb539a3aa494349f"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.87",
+	"date": "2016-01-16 22:37:07 +0900\n",
+	"sha1": "ef201e331931ad11c06623912bf2b16c3c62aa31"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.87",
+	"date": "2016-01-16 22:37:40 +0900\n",
+	"sha1": "2b2ae718f73d6e82547c135826b8efb0de89b2ac"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-17 00:01:18 +0900\n",
+	"sha1": "4abd4a4bacb58671e153c54f93e62af281f0ca83"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.27",
+	"date": "2016-01-17 00:18:23 +0900\n",
+	"sha1": "4276c0970ba21ac776b71db50f6c56c8098e9d00"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.27",
+	"date": "2016-01-17 01:08:18 +0900\n",
+	"sha1": "58078989f81a4369ecb83817fe63ba660d674fd3"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": "0.00",
+	"date": "2016-01-17 01:38:11 +0900\n",
+	"sha1": "b5992198529cae0c5595e4a0edc29633d60eff03"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.27",
+	"date": "2016-01-17 01:48:56 +0900\n",
+	"sha1": "8dcb8c2ecb742ae9e65898d474e99f1bb5ebb799"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.87",
+	"date": "2016-01-17 15:20:54 +0900\n",
+	"sha1": "b781696803efd4ad149b449bfdfa25c80a840151"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.87",
+	"date": "2016-01-17 15:24:11 +0900\n",
+	"sha1": "c9f3ec12a7e1014e8af221c1b969d57fb7130133"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.87",
+	"date": "2016-01-17 13:20:37 +0100\n",
+	"sha1": "3e79dcf7a40245e97838b12310836cccb6296b20"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.85",
+	"date": "2016-01-18 19:36:34 +0900\n",
+	"sha1": "82a9d9f7cf822d4944d0daa2b7ae495742dcf848"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": "0.00",
+	"date": "2016-01-18 19:46:30 +0900\n",
+	"sha1": "03d4b9e9c6bca0fd9e28414d589618ec3a248724"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": "0.00",
+	"date": "2016-01-19 12:26:20 +0900\n",
+	"sha1": "1b4c621fef5dc06a5750b1031adaf26615c31d60"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.27",
+	"date": "2016-01-19 12:50:54 +0900\n",
+	"sha1": "206d597d9bc8f94f2e691e3b7a811080cfe2bbe9"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.27",
+	"date": "2016-01-19 15:17:52 +0900\n",
+	"sha1": "5c12cca7f5877b64f271ce67a639ed7157308b33"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.27",
+	"date": "2016-01-20 01:09:01 +0900\n",
+	"sha1": "27eb1c36bd3f3666b152864b8d1475c097befdbe"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-20 03:04:08 +0900\n",
+	"sha1": "33a079e55f8a6dfb59596e9c7ec28c2c94a938ca"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-21 03:18:08 +0900\n",
+	"sha1": "4f3c780d05ac7da7f4b6ce10ddd99dd2f58cf337"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-21 12:05:01 +0900\n",
+	"sha1": "95746de5aaa9c3bf4cdd7a32fa72a109fbf6e056"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-22 01:50:33 +0900\n",
+	"sha1": "833cfc346526facd248f855a7ba3152693a0dd0a"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-01-22 07:44:35 +0900\n",
+	"sha1": "64cacb18a4ddb8d20ab8425fe0de7726d4355395"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-01-22 09:33:41 +0900\n",
+	"sha1": "361babd32774f576b8714036e404de9006b149bc"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-22 01:42:25 +0100\n",
+	"sha1": "1a1267dc60ee1e8c025b84acf9515cced88cbe49"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-22 20:31:55 +0900\n",
+	"sha1": "fa617badc133908b84f6eb2f702142f30ce00810"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-22 20:32:25 +0900\n",
+	"sha1": "1a3504e88512cfa12643aba34b59ffd2a31f965d"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-22 23:31:29 +0900\n",
+	"sha1": "501f542982ea269afad32424f8c73d60d09467d8"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-23 21:35:36 +0900\n",
+	"sha1": "cdf0d06bccba6a8849bc7914f8f986dc4bc55d20"
+}, {
+	"tests": 94,
+	"success_rate": 100,
+	"coverage": "9.86",
+	"date": "2016-01-23 18:40:49 +0100\n",
+	"sha1": "9b06bfaaf5d2c1248cee18c9b78f35224eae6dfb"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-24 15:35:00 +0900\n",
+	"sha1": "cc6f4d70da3bb617e8183b74d4fb6718dd371d66"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-24 18:15:09 +0900\n",
+	"sha1": "9874eb724304c92739948ae84863b9ea4353e58f"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-24 22:44:39 +0900\n",
+	"sha1": "f3b7318453e4edbf800f1b4a26278b5fef1aa71a"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-24 23:40:25 +0900\n",
+	"sha1": "da5e4fe5b19d6735a11c9a0914b535e3b642a061"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 01:21:58 +0900\n",
+	"sha1": "b3ee2222f3ce0b7e5ef5277b1a5d7411a0c9d482"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.26",
+	"date": "2016-01-25 21:54:42 +0100\n",
+	"sha1": "689334a59903af292db3d3c93a9967b046fe8d69"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 01:32:39 +0100\n",
+	"sha1": "129b424a3a9618d5381b30c29b1880df32323f6c"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 01:54:01 +0100\n",
+	"sha1": "21d6143e401a4a768d022563e06320e4af551777"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 16:53:11 +0900\n",
+	"sha1": "fb531526bd41640246ccf1af9486c79681b6b09f"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 16:54:17 +0900\n",
+	"sha1": "a46d1ecf69fc104cf9a0ec16ae2fa5f6737df5c5"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 17:13:54 +0900\n",
+	"sha1": "27b99319d3c6de57c165f06267cd2d522711991f"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 19:32:46 +0900\n",
+	"sha1": "3f6ebc1164fabbd8a10c0958a835b88c268f05c6"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 19:33:36 +0900\n",
+	"sha1": "80fedbd335662bb235eedbeb16636b50c1633016"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 21:41:09 +0900\n",
+	"sha1": "97035be2e5be4669d23d57aa6dc914a512999f64"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 22:08:33 +0900\n",
+	"sha1": "637e9f906bf2d4ac4890fd702b93725592a15dfd"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 23:01:12 +0900\n",
+	"sha1": "7c8de834bc21e4ec3ec842ccaab0da12ee433b45"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 23:06:21 +0900\n",
+	"sha1": "7593c97ad3a4cab5e9bf3af90aa523d2ca4891ab"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-26 23:53:07 +0900\n",
+	"sha1": "6265faa14f04754b6d5685249ad4e73d1592b08a"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-27 01:03:10 +0900\n",
+	"sha1": "0bef8d29d5584618f35b5eb373566ef1b87a522a"
+}, {
+	"tests": 109,
+	"success_rate": 100,
+	"coverage": "10.25",
+	"date": "2016-01-27 01:17:02 +0900\n",
+	"sha1": "0b4d0be1b4bb7e013071bfa7e216bf390e1ae8c6"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-01-27 01:18:16 +0900\n",
+	"sha1": "df06f509f5d6bf4880802cabde32fad0f82f62db"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-01-28 12:10:32 +0100\n",
+	"sha1": "dda3458e802b135bb28a6cd71c64732a8a79666c"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-01-29 01:53:10 +0900\n",
+	"sha1": "5a2224623b974ae9dad7ab39e22573718d56b5e3"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.39",
+	"date": "2016-01-30 02:01:04 +0900\n",
+	"sha1": "860fc8ef4cbe2c69e639dd2eb9d0320302d038a2"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.39",
+	"date": "2016-01-30 09:51:30 +0900\n",
+	"sha1": "afa79d01b13df3f7c4f1f1bac58dd5942e83280e"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.39",
+	"date": "2016-01-30 07:29:21 +0100\n",
+	"sha1": "0a759f6127d26a4f39e733603532635546f8b44a"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.41",
+	"date": "2016-01-30 07:29:57 +0100\n",
+	"sha1": "518f0bfc2846ae141699a960379bed735e219f50"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.41",
+	"date": "2016-01-30 07:31:26 +0100\n",
+	"sha1": "86163f66ceb18936eb79e6b7e99e4235c6521a14"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.41",
+	"date": "2016-01-30 07:31:40 +0100\n",
+	"sha1": "e7c337630318f36b2b1122adea710e9fa53bfec0"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.42",
+	"date": "2016-01-30 11:12:07 +0100\n",
+	"sha1": "63369258bdd092c5d38922262df789faba58664f"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.43",
+	"date": "2016-01-30 11:12:11 +0100\n",
+	"sha1": "e50fe604c2207cd8c23d431d0edaead35869f47f"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.43",
+	"date": "2016-01-30 11:12:11 +0100\n",
+	"sha1": "354307315067db0c78f09d4d683c2972f57e68cd"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.43",
+	"date": "2016-01-30 11:14:13 +0100\n",
+	"sha1": "4c87bdd95957f41e2cc853e11a38cbd29b5d7c9c"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.44",
+	"date": "2016-01-30 11:15:07 +0100\n",
+	"sha1": "3f2935612d691510f3461f2432c40be1cbf7cfdd"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.39",
+	"date": "2016-01-30 11:24:23 +0100\n",
+	"sha1": "333eeb4bad2f1919110027d4b51ec7ecfa01b972"
+}, {
+	"tests": 122,
+	"success_rate": 0,
+	"coverage": "10.39",
+	"date": "2016-01-30 16:25:44 +0100\n",
+	"sha1": "a1bacccc092054b3f0c3afc41b2e16c0becaf615"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.47",
+	"date": "2016-01-30 16:25:50 +0100\n",
+	"sha1": "7ba3ca6f151399319ea8423285d8e914f2e7de39"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.39",
+	"date": "2016-01-31 08:32:59 +0900\n",
+	"sha1": "66bf00b5d3847dbdda79f4beb53f3bd0331853a1"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.39",
+	"date": "2016-01-31 10:33:07 +0900\n",
+	"sha1": "c9a12ff9137c977549ab04114c57082d5c761f97"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-01-31 12:26:09 +0900\n",
+	"sha1": "057f029c80ab718ba27fb42dd1ab30e89630df03"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-01-31 12:26:37 +0900\n",
+	"sha1": "d58ed55c3a81c41068abee9b5dca8eb82b7aca2d"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-02 00:36:08 +0900\n",
+	"sha1": "bcc05f021ceb31afb7cc4dd4d088236a371eaab1"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-02 23:24:05 +0900\n",
+	"sha1": "eb6da85183cd8384ba366b040611252acdf47dbc"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-02 15:35:45 +0000\n",
+	"sha1": "2fd95c7f1adf2c1ce90ea333430b63aba10b9cd3"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-03 01:19:29 +0100\n",
+	"sha1": "64635c5dc6deeb86d9207d32d305ea7835a13d27"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-03 22:34:30 +0900\n",
+	"sha1": "45535e4fdfaa57abf15b6542619694921ec1386c"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-03 22:37:09 +0900\n",
+	"sha1": "f4d0f16481ac42a56bbe92fded371dc6943b4c70"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-03 22:37:40 +0900\n",
+	"sha1": "15c28cffa44613851fc8ee3f5c02eff8a045428e"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-03 23:08:55 +0900\n",
+	"sha1": "a3c419b6f54e1506193f4330db23c777fb23d299"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-03 23:33:57 +0900\n",
+	"sha1": "9ec7c321d8fadda8dff27ab4b9f11af20abe72c4"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-03 23:41:37 +0900\n",
+	"sha1": "642a51a208dafb87611c937cd1662967cf55e2e9"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-04 00:04:07 +0900\n",
+	"sha1": "98ceff2391aeb02da932812a890a80030fcd7aad"
+}, {
+	"tests": 121,
+	"success_rate": 0,
+	"coverage": "10.40",
+	"date": "2016-02-04 00:27:00 +0900\n",
+	"sha1": "f40f8427aa1b6ca61b6107dc8b8b6d2865f5e855"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-04 00:37:50 +0900\n",
+	"sha1": "0067cbce6fe4dafa9fb53096c27b91de5ad8a98f"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-04 00:40:58 +0900\n",
+	"sha1": "911754e1dcba574b75e9e00d09845063b897b1e8"
+}, {
+	"tests": 122,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-03 16:43:49 +0000\n",
+	"sha1": "687cd54f9ab5a0e6d8423636874dce05aff48d8b"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-04 01:51:29 +0900\n",
+	"sha1": "e2c39d78155a964f9da45bdff3a8188a9a58a6ae"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-05 23:00:35 +0900\n",
+	"sha1": "44e8c0a9be0d3588d27d102677cd9fa909115adc"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-06 22:10:20 +0900\n",
+	"sha1": "e72d808a3c9244c2e4ee3d2f8610b62e100b6c29"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": "0.00",
+	"date": "2016-02-06 22:27:23 +0900\n",
+	"sha1": "419ea16ead5cb200f956e7d74aee8246001af95a"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-06 23:39:57 +0900\n",
+	"sha1": "8fd92f1c2fa285362bbe07f5dd67d8aeb58d709d"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-07 00:02:46 +0900\n",
+	"sha1": "a8d2afaff76efc581345c5189194a85119f85e18"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-08 01:03:41 +0900\n",
+	"sha1": "8fec0870a8b78a2e80b3a7274b340c1477ebc554"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-08 01:11:54 +0900\n",
+	"sha1": "7f5024a746823fdf830ab909ec00adfae11a1bd0"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-08 23:40:17 +0900\n",
+	"sha1": "09aafbcce1ef972e94d403e8d8b03f7eb48839b3"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-09 13:43:47 +0900\n",
+	"sha1": "7f184e1126c35b449631fd265c90b073c987a98f"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.40",
+	"date": "2016-02-09 13:58:18 +0900\n",
+	"sha1": "a1eded2d9a79854b5777f6b2cc38519facf17534"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.39",
+	"date": "2016-02-09 18:14:03 +0900\n",
+	"sha1": "8fb72fd55e5d83f0e578c9bd7f185b82fe3a0ca9"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.44",
+	"date": "2016-02-11 22:55:22 +0100\n",
+	"sha1": "ee7220ebd2b16a7f758a8c9203df2151e60afc29"
+}, {
+	"tests": 118,
+	"success_rate": 100,
+	"coverage": "10.43",
+	"date": "2016-02-11 23:24:09 +0100\n",
+	"sha1": "24b9a9a12c4e1192ce0030104f397321780359d5"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.43",
+	"date": "2016-02-12 23:15:59 +0900\n",
+	"sha1": "8145cba111e0333f93fe0d3833bc86452da9a812"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.39",
+	"date": "2016-02-13 01:24:04 +0100\n",
+	"sha1": "3ad609bad7411bb1c6377a8111a7e42225a9a8c4"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.44",
+	"date": "2016-02-13 10:16:11 +0900\n",
+	"sha1": "5b87efa032d0fa6e1f0c7e0fe88c54301196785b"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.44",
+	"date": "2016-02-13 10:19:08 +0900\n",
+	"sha1": "4db4fe28b49df61ab3403969fa28988e1ab67dd3"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.44",
+	"date": "2016-02-13 10:23:47 +0900\n",
+	"sha1": "0fae2dac3565846335fd4dd539417f8a4aa4c343"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-14 23:41:07 +0900\n",
+	"sha1": "dfaabeb41d2e27c6b6eb2d909262838bd03766c5"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-15 01:02:35 +0900\n",
+	"sha1": "3b4d2d6f9103709162d5ee44d07c79d48eac5a05"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.50",
+	"date": "2016-02-15 02:21:00 +0900\n",
+	"sha1": "5ee0e75dfe746ed22e86456054eabad2b4ec7ee9"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.50",
+	"date": "2016-02-15 09:11:57 +0900\n",
+	"sha1": "760d443f7410b37eebd89231f01723105b0ef954"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.50",
+	"date": "2016-02-15 09:20:36 +0900\n",
+	"sha1": "5a90848c7588b6fbcaf482539f3200279e59fba2"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.50",
+	"date": "2016-02-15 23:26:56 +0900\n",
+	"sha1": "62e9c0358a5a1302317b214f304c145156ae6736"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-16 01:41:48 +0900\n",
+	"sha1": "120d1c2fff4c60e9dc67b513941fbabca8190eef"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-16 02:36:45 +0900\n",
+	"sha1": "4d39f63ef74276b12c37988899a6a88d4d5d6ca0"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-16 02:51:09 +0900\n",
+	"sha1": "1af561115949e6b882eb4c97248c2ebe00ebb104"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-16 15:02:34 +0900\n",
+	"sha1": "8494c682a763da7444f35f8222fc005af64a567b"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-16 17:34:21 +0900\n",
+	"sha1": "0cf1f43deb24b6939675acb5cf10c3e5823d69f6"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-17 03:04:55 +0900\n",
+	"sha1": "72affd67b9c7dddb35cbf3811221e85208013587"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-17 23:42:51 +0900\n",
+	"sha1": "7d7d2f488dc8736491be1895f8dc4377df5bf433"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-19 15:48:14 +0900\n",
+	"sha1": "56bb20dfd22b9dc5c816529a3346985be732f993"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-19 20:20:26 +0900\n",
+	"sha1": "70e0dcf99dc2cc4250b8d5fa80f362ad37109c4e"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-20 20:52:56 +0900\n",
+	"sha1": "b52e904ed18c885cffaa0f99e720ab4ac0ff990a"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-20 23:02:00 +0900\n",
+	"sha1": "aa0bd5b34aa9ec0fa949b5b1304d3dca636b19db"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-21 03:49:42 +0900\n",
+	"sha1": "f98c849c7cbf469a6d96e57d54bea4f13e2a75ed"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-21 03:51:11 +0900\n",
+	"sha1": "3a4f9b9027b2cc0964476c062e59b3540d872f60"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-20 21:45:18 +0100\n",
+	"sha1": "06fc26cd06e1ed028cdf196a6dae2c8337f99018"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-02-21 12:28:40 +0900\n",
+	"sha1": "1f46da2273b07018bbc33661d089a99408988248"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.47",
+	"date": "2016-02-21 15:36:41 +0900\n",
+	"sha1": "c47d50d0dfde79a3aff532000468a15eaafc70cf"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.47",
+	"date": "2016-02-21 15:56:12 +0900\n",
+	"sha1": "cb64f8eab8c076b65d07997208fa38eb1c868dfd"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.47",
+	"date": "2016-02-21 15:58:46 +0900\n",
+	"sha1": "e1dd5dd0577d062b5812cb6eec82a257dce2753e"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.47",
+	"date": "2016-02-21 16:00:14 +0900\n",
+	"sha1": "8981e339b459b6a084aa8c435db61d2e2ff1934c"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-22 01:33:38 +0900\n",
+	"sha1": "8eee13d7aaff5e145903a82ed31f56c91de9e0bf"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-22 02:17:41 +0900\n",
+	"sha1": "4bc057c6539954729bb2d5eaf1045f90c7d04e93"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-22 08:57:23 +0900\n",
+	"sha1": "505bc71f9ac8c75b63968d39a8e70a11a8ba74e3"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-22 11:55:31 +0900\n",
+	"sha1": "1679da4abee861caa89169f8d69a8a15325dcf1f"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-23 19:52:44 +0900\n",
+	"sha1": "a31e4b589745edacbb07a7a83604eeb5eb0c823e"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-25 13:22:17 +0900\n",
+	"sha1": "71cf043f5655fb2a0681a53b1b9afe072457b7f2"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-25 13:23:24 +0900\n",
+	"sha1": "c18f95edf81d70cfad29ad3f74369e2ca59cb11f"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-26 21:48:49 +0900\n",
+	"sha1": "7b5b453e56ea681c3556e7645e70c895152467d1"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-27 02:56:22 +0900\n",
+	"sha1": "3da3a048f049ef276c7e32f896584ce753ba1e85"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-27 04:48:46 +0900\n",
+	"sha1": "da2a7bf77d33cac14e7dc4d110101351481d5a6e"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-27 04:52:36 +0900\n",
+	"sha1": "977f856854e11189018991b50f4b4e3362ba08df"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-02-27 04:56:48 +0900\n",
+	"sha1": "46998dc1fae1b47ac2fc814012eb97b4dd99deed"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-03-01 01:10:19 +0100\n",
+	"sha1": "e218b52b7838f884a38f7fef3c0fa3084310c4b9"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-03-01 09:06:27 +0100\n",
+	"sha1": "bfcd5a2855a7e521459f0166444487b2ab28fd07"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-03-01 21:17:06 +0900\n",
+	"sha1": "6db36e12b5e5d84c0b51ca38a3731b66cb159829"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-03-02 22:25:21 +0100\n",
+	"sha1": "356202e28ac24b49f98ccbec1c92111a20e02edf"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-03-03 18:38:57 +0900\n",
+	"sha1": "536a0d3fe23077f75aca72f22313ba28e2e1fca1"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-03-03 15:38:10 -0500\n",
+	"sha1": "b103180bf65c84641d22561501522e3adb5dd085"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-03-04 09:23:22 +0900\n",
+	"sha1": "9a705c62bfe2b5bcea7872e2c20da7e55d78745a"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-03-04 13:55:48 +0100\n",
+	"sha1": "5b1b2ef3d7f275957532bda16535f44dab6a19ee"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-03-04 14:06:28 +0100\n",
+	"sha1": "6a8ec18f9aac6f95d34ba7ce7157f465724f64e1"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.48",
+	"date": "2016-03-04 14:32:28 +0100\n",
+	"sha1": "413e75be5a45626d228e320394c853c51b32905c"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-05 10:31:27 +0900\n",
+	"sha1": "de3026248cf3db17e4ae4dd0ad4829ede7524af6"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-05 10:51:45 +0900\n",
+	"sha1": "6f30ffa8650bebf00f50b915d6cf179b2ea71b3c"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-05 10:52:43 +0900\n",
+	"sha1": "eab7011e0fcc8c5d089e46efa2997adb9ac23a14"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-05 11:31:59 +0900\n",
+	"sha1": "1211bfc7bee09c35a64e8725a522c96cb98ce43f"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-05 19:47:27 +0900\n",
+	"sha1": "f194a08cfeea6cd9162c85dbbb2a4662f604dfd2"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-05 20:11:04 +0900\n",
+	"sha1": "1b1bd371a43c2742f1d1246858f27c2b39aa3c48"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-06 00:20:35 +0900\n",
+	"sha1": "b2637647300b4fb2a465dd3c9153190555a5e4a2"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-06 03:04:45 +0900\n",
+	"sha1": "a6788f858f5f6b064002e729d83bbae99d66b456"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-06 03:07:33 +0900\n",
+	"sha1": "876bb396fd937a5d9add275f3630aabfb7d061d7"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.49",
+	"date": "2016-03-05 21:12:51 +0100\n",
+	"sha1": "c7e1edf2623c07f0ac69f5bf2d874267dfb848bd"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-06 12:51:54 +0900\n",
+	"sha1": "4c4b08f1b8d96b0eb84c4f8f81b1088a27afbc9c"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-06 12:57:29 +0900\n",
+	"sha1": "e8737d263a5a1e16caec842c097022eb075ce308"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-06 12:58:44 +0900\n",
+	"sha1": "70e2079c7f4ca7d2f6fc02344a16b7c6008a4425"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-08 12:37:58 +0000\n",
+	"sha1": "e162cd956ac1e623d1201154991e426a9a6f53df"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-10 01:34:56 +0900\n",
+	"sha1": "9a42b93d1f73f2d09c4eff770f20953a97920bc5"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-10 01:38:24 +0900\n",
+	"sha1": "b84421723ba1871ebef529af78de0a83f6a789a5"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.51",
+	"date": "2016-03-10 01:40:49 +0900\n",
+	"sha1": "ea7c8e62de9976163a4cefff07fd68374ce51c62"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.51",
+	"date": "2016-03-10 02:07:46 +0900\n",
+	"sha1": "94421c7a63c8e49de3ac8d2211d0f0e6e34cef07"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-03-10 02:08:09 +0900\n",
+	"sha1": "a82e579d57d0a162ecdac34b5022f55abe6788cf"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.59",
+	"date": "2016-03-10 12:35:48 +0900\n",
+	"sha1": "91cda6d245c8dd9ce1b5fd766160f787c601027f"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.59",
+	"date": "2016-03-10 14:07:48 +0900\n",
+	"sha1": "2bcab3052964343a54d79357c0472c4029e545fa"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.59",
+	"date": "2016-03-10 14:31:11 +0900\n",
+	"sha1": "a2b0ee0c24bab467c86a9af5b852104c1aba05a6"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.60",
+	"date": "2016-03-12 04:11:30 +0900\n",
+	"sha1": "f3514e56257bcbe5028aabd29cd352c25c426ca2"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.60",
+	"date": "2016-03-12 14:43:51 +0100\n",
+	"sha1": "93786f0fd6ffa9be6bb6c599f33aa04c1b19175a"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.60",
+	"date": "2016-03-12 23:59:02 +0900\n",
+	"sha1": "838c7fb991d4cfe1d4d9924f442648c52a1750a1"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.60",
+	"date": "2016-03-15 02:35:48 +0900\n",
+	"sha1": "62004c279c60cf94f4c8d2acc47a95fd0b8de2a6"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.61",
+	"date": "2016-03-15 21:09:00 +0900\n",
+	"sha1": "5f6b577cbfc6cb35923ff5a5b1cff2538decc549"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.61",
+	"date": "2016-03-15 22:31:44 +0900\n",
+	"sha1": "f2ca4fb64bc9a6ffa58f8410161d1132d5c2a032"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.61",
+	"date": "2016-03-15 22:44:06 +0900\n",
+	"sha1": "5750286b5dad3359f566db2ee7dde37ab4a45159"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.61",
+	"date": "2016-03-16 02:12:23 +0900\n",
+	"sha1": "da62f6f8fbd8d6a99ea7ab417a688bfe24fa345e"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.65",
+	"date": "2016-03-16 02:37:16 +0900\n",
+	"sha1": "101f8598ed0e5e754998b81c9134c8c82537f0ea"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.66",
+	"date": "2016-03-16 09:52:49 +0900\n",
+	"sha1": "d1f42e0ed72d973cc38327281addc8ca8cb8d463"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.66",
+	"date": "2016-03-16 10:36:52 +0900\n",
+	"sha1": "1d085d52bbe8b37278312aa9554c103c6139a044"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.66",
+	"date": "2016-03-16 16:07:33 +0900\n",
+	"sha1": "376b109602be79523f6a75cfd34b8fc3bbe482c1"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.66",
+	"date": "2016-03-16 16:15:31 +0900\n",
+	"sha1": "bbe8a9b9e4d4e45385067657e853db891cec4324"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.66",
+	"date": "2016-03-17 01:38:32 +0900\n",
+	"sha1": "dd46d649a6758a17158a9e64fc03c05d590446e3"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.66",
+	"date": "2016-03-17 01:50:24 +0900\n",
+	"sha1": "2ad6948bb4cb829ec73be4ca8c6321cbc6b11f45"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.66",
+	"date": "2016-03-18 00:50:12 +0900\n",
+	"sha1": "f0e4157a46c99b313177f452cefb67b5b83b6d04"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.67",
+	"date": "2016-03-18 02:07:04 +0900\n",
+	"sha1": "733797cb6fc7262e499a5d1168489680ec00b40f"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.67",
+	"date": "2016-03-19 12:27:23 +0900\n",
+	"sha1": "192e4ade3e87bae922d0a3a101b2b2b59daaaf2b"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.67",
+	"date": "2016-03-20 21:05:26 +0900\n",
+	"sha1": "e454f78c5a801fc2ef30cb403d3a51d10e19590d"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.66",
+	"date": "2016-03-22 00:33:07 +0900\n",
+	"sha1": "e7a47fe3a42c52765ae24d52da91dea6d8a8c7ca"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.66",
+	"date": "2016-03-22 08:14:31 +0900\n",
+	"sha1": "0d2c92366476912e665f76862f1af2edc27f6429"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.66",
+	"date": "2016-03-22 14:22:20 +0900\n",
+	"sha1": "7ab260e68849114ef25e0b87008d96e5ec94e046"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.73",
+	"date": "2016-03-22 15:19:08 +0900\n",
+	"sha1": "d0c8e33ec5820f906a6f4664c460805bd22549da"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.80",
+	"date": "2016-03-24 14:48:41 +0900\n",
+	"sha1": "56aec15e68d0574cf394e4caf9822ca21a8584e4"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.81",
+	"date": "2016-03-24 15:25:44 +0900\n",
+	"sha1": "ae32016856a04ce7f6126928fbb3bb137008daa5"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.81",
+	"date": "2016-03-24 16:53:22 +0900\n",
+	"sha1": "b66812d76c8e59395c7de5868ab53ff27ed219a5"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.82",
+	"date": "2016-03-24 20:08:55 +0900\n",
+	"sha1": "d96e1fa503249033cbbf5356f48bf805ec0b655d"
+}, {
+	"tests": 121,
+	"success_rate": 100,
+	"coverage": "10.82",
+	"date": "2016-03-24 20:17:27 +0900\n",
+	"sha1": "a581871a893c3e6cf9841f5e39ecf80c20abaa93"
+}, {
+	"tests": 0,
+	"success_rate": 1,
+	"coverage": 0.0,
+	"date": "2016-04-04 20:41:41 +0000",
+	"sha1": "out.json"
+}]
