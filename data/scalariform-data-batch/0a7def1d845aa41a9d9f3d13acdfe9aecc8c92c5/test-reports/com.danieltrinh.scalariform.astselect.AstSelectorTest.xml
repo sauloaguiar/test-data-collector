@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="ds" name="com.danieltrinh.scalariform.astselect.AstSelectorTest" tests="95" errors="0" failures="0" time="0.012">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/><property name="java.vm.version" value="25.72-b15"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/saguiar/repos/scalariform"/><property name="java.runtime.version" value="1.8.0_72-b15"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="3.16.0-30-generic"/><property name="user.home" value="/home/saguiar"/><property name="user.timezone" value="America/Chicago"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/share/sbt-launcher-packaging/bin/sbt-launch.jar"/><property name="user.name" value="saguiar"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/share/sbt-launcher-packaging/bin/sbt-launch.jar clean coverage test"/><property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_72"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; wibble  &lt;&lt;&lt; should expand
+&gt;&gt;&gt;   |     &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$  &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; wibble  &lt;&lt;&lt; should expand
+&gt;&gt;&gt; |       &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$  &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; wibble  &lt;&lt;&lt; should expand
+&gt;&gt;&gt;      |  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$  &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; wibble  &lt;&lt;&lt; should expand
+&gt;&gt;&gt;       | &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$  &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; /* foo */ &lt;&lt;&lt; should expand
+&gt;&gt;&gt;    $      &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; /* foo */ /* bar */ &lt;&lt;&lt; should expand
+&gt;&gt;&gt;     $               &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$           &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; class A(n: Int) &lt;&lt;&lt; should expand
+&gt;&gt;&gt;         $$$$$$  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; foo(42) &lt;&lt;&lt; should expand
+&gt;&gt;&gt;     $$  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; object A { } &lt;&lt;&lt; should expand
+&gt;&gt;&gt;           |  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; private def foo = 42 &lt;&lt;&lt; should expand
+&gt;&gt;&gt;           $$$$$$$$$  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; if (a) b else c &lt;&lt;&lt; should expand
+&gt;&gt;&gt;             $$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; aa(bb + cc, dd * ee) &lt;&lt;&lt; should expand
+&gt;&gt;&gt;              $$$$$   &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;             $$$$$$$  &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; class A[B] &lt;&lt;&lt; should expand
+&gt;&gt;&gt;         $  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; new Wibble &lt;&lt;&lt; should expand
+&gt;&gt;&gt;     $$$$$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; new Wibble() &lt;&lt;&lt; should expand
+&gt;&gt;&gt;         $$$  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a + b + c &lt;&lt;&lt; should expand
+&gt;&gt;&gt;   $       &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$     &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a + b + c &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$     &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a + b + c &lt;&lt;&lt; should expand
+&gt;&gt;&gt;      $$$  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; x + y * z &lt;&lt;&lt; should expand
+&gt;&gt;&gt;      $$$  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;     $$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; x + y * z &lt;&lt;&lt; should expand
+&gt;&gt;&gt;     $$$$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a :: b :: c :: Nil &lt;&lt;&lt; should expand
+&gt;&gt;&gt;             $$     &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;           $$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a :: b :: c :: Nil &lt;&lt;&lt; should expand
+&gt;&gt;&gt;           $$$$$$$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;      $$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a :: b :: c :: Nil &lt;&lt;&lt; should expand
+&gt;&gt;&gt;      $$$$$$$$$$$$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a :: b :: Nil ++ Nil &lt;&lt;&lt; should expand
+&gt;&gt;&gt;                  $$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;           $$$$$$$$$$ &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a :: b :: Nil ++ Nil &lt;&lt;&lt; should expand
+&gt;&gt;&gt;           $$$$$$$$$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;      $$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a :: b :: Nil ++ Nil &lt;&lt;&lt; should expand
+&gt;&gt;&gt;      $$$$$$$$$$$$$$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a + b :: b + c :: Nil ++ Nil &lt;&lt;&lt; should expand
+&gt;&gt;&gt;              $               &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;          $$$$$               &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a + b :: b + c :: Nil ++ Nil &lt;&lt;&lt; should expand
+&gt;&gt;&gt;          $$$$$               &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;          $$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a + b :: b + c :: Nil ++ Nil &lt;&lt;&lt; should expand
+&gt;&gt;&gt;          $$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; i += 10 + 2 &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $           &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; i += 10 + 2 &lt;&lt;&lt; should expand
+&gt;&gt;&gt;      $$     &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;      $$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; i += 10 + 2 &lt;&lt;&lt; should expand
+&gt;&gt;&gt;      $$$$$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="foo _ &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$                                                         &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$                                             &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="foo _ &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$$$$$$$$                                             &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$                                &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="foo _ &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$                                &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$                            &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="foo _ &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$                            &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$                    &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="foo _ &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$                    &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$       &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="foo _ &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$       &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="bar(c) &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $               &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$        &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="bar(c) &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$        &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; def x = 42 &lt;&lt;&lt; should expand
+&gt;&gt;&gt;         $$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; x: Int &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $      &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; x = a + b &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $         &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a match { case b =&gt; } &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $                     &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; a match { case b =&gt; c } &lt;&lt;&lt; should expand
+&gt;&gt;&gt;           $$$$$$$$$$$   &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; (a, b) &lt;&lt;&lt; should expand
+&gt;&gt;&gt;   $$$  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; for { a &lt;- b; c &lt;- d } yield e &lt;&lt;&lt; should expand
+&gt;&gt;&gt;       $$$$$$$                  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; { case b ⇒ c } &lt;&lt;&lt; should expand
+&gt;&gt;&gt;        $       &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;   $$$$$$$$$$   &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; for (a ← b) { c } &lt;&lt;&lt; should expand
+&gt;&gt;&gt;               $   &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;             $$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; for (a &lt;- b if c) {} &lt;&lt;&lt; should expand
+&gt;&gt;&gt;                $     &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;      $$$$$$$$$$$     &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; def a { b } &lt;&lt;&lt; should expand
+&gt;&gt;&gt;         $   &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; { case b :: c :: d =&gt; } &lt;&lt;&lt; should expand
+&gt;&gt;&gt;                  $      &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;             $$$$$$      &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; { case b :: c :: d =&gt; } &lt;&lt;&lt; should expand
+&gt;&gt;&gt;             $$$$$$      &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;        $$$$$$$$$$$      &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; /** a */ class B &lt;&lt;&lt; should expand
+&gt;&gt;&gt;                $ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; /** a */ class B &lt;&lt;&lt; should expand
+&gt;&gt;&gt;  $$$$            &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$         &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; /** a */ class B &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$         &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; /** a */ class B; class C &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$          &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; val a  = { b } &lt;&lt;&lt; should expand
+&gt;&gt;&gt;            $   &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;          $$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; try a catch b &lt;&lt;&lt; should expand
+&gt;&gt;&gt;             $ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; if (a) b &lt;&lt;&lt; should expand
+&gt;&gt;&gt;     $    &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$ &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; def a = b(c) &lt;&lt;&lt; should expand
+&gt;&gt;&gt;          $$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;         $$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; def a = { b } &lt;&lt;&lt; should expand
+&gt;&gt;&gt;           $   &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;         $$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; for (a &lt;- b) c(d) &lt;&lt;&lt; should expand
+&gt;&gt;&gt;               $$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;              $$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; def a[B &lt;% C] &lt;&lt;&lt; should expand
+&gt;&gt;&gt;         $$    &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;       $$$$$$  &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; class A[B &lt;% C, D &lt;% E] &lt;&lt;&lt; should expand
+&gt;&gt;&gt;           $$            &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;         $$$$$$          &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; class A[B &lt;% C, D &lt;% E] &lt;&lt;&lt; should expand
+&gt;&gt;&gt;         $$$$$$          &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; sealed class A &lt;&lt;&lt; should expand
+&gt;&gt;&gt;            $$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; protected[a] val b &lt;&lt;&lt; should expand
+&gt;&gt;&gt;           $        &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$       &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="pop() } should produce [NoSuchElementException] &lt;&lt;&lt; should expand
+&gt;&gt;&gt;              $$$$$$$                                               &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;              $$$$$$$$$$$                                           &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="pop() } should produce [NoSuchElementException] &lt;&lt;&lt; should expand
+&gt;&gt;&gt;              $$$$$$$$$$$                                           &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;            $$$$$$$$$$$$$$$                                         &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="pop() } should produce [NoSuchElementException] &lt;&lt;&lt; should expand
+&gt;&gt;&gt;            $$$$$$$$$$$$$$$                                         &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$                                         &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="pop() } should produce [NoSuchElementException] &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$                                         &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="pop() } should produce [NoSuchElementException] &lt;&lt;&lt; should expand
+&gt;&gt;&gt;                                            $$$$$$$$$$$$$$$$$$$$$$  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;                                   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="pop() } should produce [NoSuchElementException] &lt;&lt;&lt; should expand
+&gt;&gt;&gt;                                   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; } wibble  &lt;&lt;&lt; should expand
+&gt;&gt;&gt;     $     &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;   $$$$$$  &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="buz() &lt;&lt;&lt; should expand
+&gt;&gt;&gt;  $                &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$               &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="buz() &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$               &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$           &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="buz() &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$           &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$       &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="buz() &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$$$$       &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="baz &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$                &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$     &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="baz &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$$$$$$$     &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="baz &lt;&lt;&lt; should expand
+&gt;&gt;&gt;         $$$         &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;         $$$$$$$     &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="baz &lt;&lt;&lt; should expand
+&gt;&gt;&gt;         $$$$$$$     &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;         $$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="baz &lt;&lt;&lt; should expand
+&gt;&gt;&gt;         $$$$$$$$$$$ &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; foo[bar][baz] &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$           &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$      &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; foo[bar][baz] &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$$$$$$      &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; (!foo) &lt;&lt;&lt; should expand
+&gt;&gt;&gt;   $$$  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;  $$$$  &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; (!foo) &lt;&lt;&lt; should expand
+&gt;&gt;&gt;  $$$$  &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="&quot; &lt;&lt;&lt; should expand
+&gt;&gt;&gt;                $$$$$$       &quot; &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;                $$$$$$$$$$$  &quot; &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="&quot; &lt;&lt;&lt; should expand
+&gt;&gt;&gt;                $$$$$$$$$$$  &quot; &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;              $$$$$$$$$$$$$$ &quot; &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="&quot; &lt;&lt;&lt; should expand
+&gt;&gt;&gt;              $$$$$$$$$$$$$$ &quot; &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; xyz&quot;&quot; &lt;&lt;&lt; should expand
+&gt;&gt;&gt;  $    &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$   &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; xyz&quot;&quot; &lt;&lt;&lt; should expand
+&gt;&gt;&gt; $$$   &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt; $$$$$ &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="source
+&gt;&gt;&gt; s&quot;my name is $bob&quot; &lt;&lt;&lt; should expand
+&gt;&gt;&gt;    $               &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;  $$$$$$$$$$$$$     &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.danieltrinh.scalariform.astselect.AstSelectorTest" name="&quot; &lt;&lt;&lt; should expand
+&gt;&gt;&gt;                $    &lt;&lt;&lt;
+ to 
+&gt;&gt;&gt;              $$$$   &lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase>
+                     <system-out></system-out>
+                     <system-err></system-err>
+                   </testsuite>
